@@ -1,0 +1,22 @@
+.square {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.title {
+    color: green;
+    font-size: 12px;
+}
+
+.game-container {
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: repeat(3,50px);
+    gap: 10px;
+    
+}
